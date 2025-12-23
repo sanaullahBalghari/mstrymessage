@@ -1,0 +1,33 @@
+1️⃣ VS Code ma apna project folder open karo
+   (jahan package.json ya code files hain)
+
+2️⃣ Terminal open karo (VS Code ya PowerShell)
+
+3️⃣ Git initialize karo (sirf first time)
+   git init
+
+4️⃣ Sab files stage karo
+   git add .
+
+5️⃣ First commit banao
+   git commit -m "initial commit"
+
+6️⃣ GitHub par jao
+   → New Repository
+   → Name: mstrymessage
+   → Public ya Private
+   → ❌ README / .gitignore kuch select na karo
+   → Create repository
+
+7️⃣ Ab GitHub jo URL de usko copy karo
+   (example)
+   https://github.com/sanaullahBalghari/mstrymessage.git
+
+8️⃣ Remote add karo (SPACE lazmi hai!)
+   git remote add origin https://github.com/sanaullahBalghari/mstrymessage.git
+
+9️⃣ Branch ka name main set karo
+   git branch -M main
+
+🔟 Project GitHub par push karo
+   git push -u origin main
